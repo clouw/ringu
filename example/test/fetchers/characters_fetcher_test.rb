@@ -22,7 +22,7 @@ class CharactersFetcherTest < ActiveSupport::TestCase
     characters = []
 
     @mock_client.expects(:get).with(CharactersFetcher::URL).returns(data)
-    @mock_parser.expects(:parse).returns(characters)
+    @mock_parser.expects(:parse).with(data.body).returns(characters)
     
     results = @subject.fetch
   

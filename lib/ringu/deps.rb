@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require "dry-container"
-
 # TODO: add tests
 module Ringu
   class Deps
