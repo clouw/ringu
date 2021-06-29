@@ -7,7 +7,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ringu', '~> 0.1.0.pre.alpha'
+gem 'ringu', '~> 0.1.1.pre.alpha'
 ```
 
 And then execute:
