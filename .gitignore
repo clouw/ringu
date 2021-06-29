@@ -1,0 +1,17 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+
+# rspec failure tracking
+.rspec_status
+
+/example/db/*.sqlite3
+/example/db/*.sqlite3-journal
+/example/db/*.sqlite3-[0-9]*
+/example/log/*
+/example/tmp/*
