@@ -30,7 +30,7 @@ mkdir app/deps
 echo 'module Container\n  include Ringu::Container\n\n  # Deps\n  # register :name, class\nend\n' >> app/deps/container.rb
 ```
 
-Example [example/app/deps/container.rb](https://github.com/clouw/ringu/blob/master/example/app/deps/container.rb)
+Example [example/app/deps/container.rb](https://github.com/ramon-sg/ringu/blob/master/example/app/deps/container.rb)
 
 ### Register your dependencies
 
@@ -62,9 +62,9 @@ class CharactersFetcher
 end
 ```
 
-Example [example/app/fetchers/characters_fetcher.rb](http://github.com/clouw/ringu/blob/master/example/app/fetchers/characters_fetcher.rb)
+Example [example/app/fetchers/characters_fetcher.rb](http://github.com/ramon-sg/ringu/blob/master/example/app/fetchers/characters_fetcher.rb)
 
-Example test [example/test/fetchers/characters_fetcher_test.rb](http://github.com/clouw/ringu/blob/master/example/test/fetchers/characters_fetcher_test.rb)
+Example test [example/test/fetchers/characters_fetcher_test.rb](http://github.com/ramon-sg/ringu/blob/master/example/test/fetchers/characters_fetcher_test.rb)
 
 ### Resolve dependency
 
@@ -89,14 +89,14 @@ class CharactersController < ApplicationController
 end
 ```
 
-Example [example/app/fetchers/characters_fetcher.rb](http://github.com/clouw/ringu/blob/master/example/app/controllers/characters_controller.rb)
+Example [example/app/fetchers/characters_fetcher.rb](http://github.com/ramon-sg/ringu/blob/master/example/app/controllers/characters_controller.rb)
 
-Example test [example/test/fetchers/characters_fetcher_test.rb](http://github.com/clouw/ringu/blob/master/example/test/controllers/characters_controller_test.rb)
+Example test [example/test/fetchers/characters_fetcher_test.rb](http://github.com/ramon-sg/ringu/blob/master/example/test/controllers/characters_controller_test.rb)
 
 
 ## Example rails project
 
-[Rails project](http://github.com/clouw/ringu/blob/master/example)
+[Rails project](http://github.com/ramon-sg/ringu/blob/master/example)
 
 
 # TODO
@@ -108,7 +108,7 @@ Example test [example/test/fetchers/characters_fetcher_test.rb](http://github.co
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/clouw/ringu.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ramon-sg/ringu.
 
 ## License
 
